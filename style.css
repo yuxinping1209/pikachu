@@ -67,7 +67,7 @@
     border:2px solid black;
     border-color:transparent transparent black black;
     position:absolute;
-    right:209px;
+    right:50%;
     top:60px;
     transform:rotate(-15deg);
     z-index:1;
@@ -81,7 +81,7 @@
     border:2px solid black;
     border-color:transparent black black transparent;
     position:absolute;
-    left:209px;
+    left:50%;
     top:60px;
     transform:rotate(15deg);
     z-index:1;
@@ -92,9 +92,10 @@
     position:absolute;
     width:131px;
     height:162px;
-    right: 144px;
+    right: 50%;
     bottom:0px;
     overflow: hidden;
+    transform:translateX(65.5px);
 }
 .lowlip{
     height: 332px;
